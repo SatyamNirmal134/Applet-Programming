@@ -3,9 +3,9 @@ import java.awt.Graphics;
 
 public class HelloWorldApplet extends Applet {
     
-    // This method is called whenever the applet is run
+   
     public void paint(Graphics g) {
-        // Draw a string at specified x, y coordinates
+        
         g.drawString("Hello, World!", 50, 50);
     }
 }
